@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements PermissionsListen
     // onDestroy is not consistently called
     // we can't rely on resources clean up here
     mapboxTelemetry.disable();
+    System.out.println("");
   }
 
   private String obtainAccessToken() {
